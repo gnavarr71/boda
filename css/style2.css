@@ -1,0 +1,92 @@
+	 
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: #000000;
+  font-size: 14px;
+  background-color: #F1EDED;
+  padding: 0 5px;
+}
+
+.gluten {
+  color: #FFFFFF;
+  background-color: red;
+}
+.wrapper {
+  max-width: 450px;
+  margin: auto;
+}
+
+
+section {
+  margin-top: 30px;
+}
+
+
+.dish {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+
+.dish .info {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding-right: 15px;
+}
+.dish .name {
+  font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+.dish .description {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+}
+
+.textos {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.dish .price {
+  text-align: right;
+	font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+
+.titulo {
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 40px;
+font-weight: 400;
+color: #981767;
+}
+
+.linea {
+	text-align: center;
+	max-width: 70px;
+	margin: auto;
+	border-bottom: 2px solid #ff8400;
+
+
+}
+
+.foto {
+text-align: center;
+padding-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 15px;
+	background-color: #981767;
+	padding-bottom: 15px;	
+	color: #F1C8C8;
+
+}
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}

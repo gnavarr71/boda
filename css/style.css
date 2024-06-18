@@ -1,0 +1,277 @@
+	 
+body {
+    font-family: 'Montserrat';
+    color: #000;
+    font-size: 14px;
+    background-color: #FAFAED;
+    padding: 0 5px;
+}
+
+.comment-box {
+  width: 85%;
+  margin-top: 50px;
+  background: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.comment-box p {
+  margin: 0 30px 15px;
+  font-weight: 300;
+  color: #333;
+  word-wrap: break-word;
+  background: #EEE;
+  padding: 5px 10px;
+}
+
+
+.form-group>input {
+  display: none;
+}
+
+.logo {
+	text-align: center;
+}
+
+#contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+	
+}
+
+#contenedor > div {
+  width: 30%;
+	text-align: center;
+}
+
+
+	
+
+#contenedor2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}	
+#contenedor2 > div {
+  width: 40%;
+	text-align: center;
+	padding: 5px;
+}
+
+.hola {
+	text-align: center;
+	padding: 10px
+}
+
+.hola2 {
+	text-align: center;
+	padding: 10px;
+	width: 90%;
+	  margin-left: auto;
+  margin-right: auto;
+	background-image: url("../imagenes/papel.jpg");
+	background-repeat: repeat;
+
+
+}
+
+.gluten {
+  color: #FFFFFF;
+  background-color: red;
+}
+.wrapper {
+    max-width: 450px;
+    margin: auto;
+}
+
+
+section {
+	text-align: center;
+}
+
+
+.dish {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+
+.dish .info {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding-right: 15px;
+}
+.dish .name {
+  font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+.name2 {
+	font-size: 20px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #981967;
+}
+
+.name3 {
+	  font-size: 22px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #981967;
+	  text-decoration: underline;
+
+}
+
+.name4 {
+	  font-size: 35px;
+	text-align: center;
+font-family: 'Patua One', cursive;
+	color: #FFF;
+
+}
+
+.name5 {
+	  font-size: 30px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #FFF;
+
+}
+
+.name6 {
+	  font-size: 22px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #FFF;
+
+}
+
+.name7 {
+	  font-size: 15px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #FFF;
+
+}
+
+.name8 {
+	  font-size: 18px;
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	color: #FFF;
+
+}
+
+.dish .description {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+}
+
+.div-1 {
+	border-radius: 25px;
+	border: 4px double #981967;
+    }
+
+
+.preciomenu {
+	border-radius: 25px;
+	border: 4px double #981967;
+	background-color: #981967;
+	width:50%;
+	margin-left:25%; 
+	margin-right:25%;
+	margin-bottom: 7px;
+	text-align: center;
+    }
+
+.textos {
+  font-size: 13px;
+	margin-top: 3px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.dish .price {
+  text-align: right;
+	font-size: 17px;
+	font-family:'Cabin', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+        font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+}
+
+.titulo2 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: #000;
+	margin: 5px
+}
+
+.titulo3 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: #F1EDED;
+	margin: 5px
+}
+
+.titulo4 {
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: #981767;
+	margin: 5px
+}
+
+.platos {
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+
+}
+
+.platos2 {
+	text-align: center;
+	font-family:'Cabin', sans-serif;
+	font-size: 17px;
+	color: #000;
+
+}
+
+.linea {
+	text-align: center;
+	max-width: 70px;
+	margin: auto;
+	border-bottom: 2px solid #e36605;
+
+
+}
+
+.foto {
+text-align: center;
+padding-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 15px;
+	background-color: #e36605;
+	padding-bottom: 15px;
+	color: #F1C8C8;
+}
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
